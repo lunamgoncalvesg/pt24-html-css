@@ -1,0 +1,45 @@
+body{
+background-image:url('https://www.cck.gob.ar/wp-content/uploads/2019/12/Sandro-la-consagracion_principal.jpg');
+background-size:cover;
+}
+
+
+header{
+font-size:20px;
+}
+a{
+text-decoration:none;
+color:black;
+}
+.parteuno{
+display: flex;
+gap:20px;
+margin-top:40px;
+}
+.partedos{
+display: flex;
+gap:20px;
+justify-content:end;
+margin-top:-20px;
+}
+header img{
+border:1px solid black;
+}
+
+
+main{
+display: flex;
+flex-direction: column;
+width:700px;
+gap:5px;
+margin-top:15vh;
+}
+main button{
+width:275px;
+display: flex;
+}
+.botones{
+display: flex;
+flex-direction: row;
+gap:10px;
+}

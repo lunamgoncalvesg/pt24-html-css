@@ -1,0 +1,59 @@
+body{
+border:1px solid black;
+}
+header{
+border-bottom:1px solid black;
+display: flex;
+justify-content: space-between;
+padding-right:20px;
+padding-left:20px;
+align-items: center;
+}
+main{
+border-bottom:1px solid black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+min-height:55vh;
+}
+header a{
+text-decoration: none;
+color:black;
+}
+section.hpartesdos {
+display: flex;
+gap: 15px;
+align-items: center;
+}
+main p{
+width:400px;
+}
+img{
+border:1px solid black;
+}
+section.botones{
+display: flex;
+justify-content: space-between;
+}
+section.partedos{
+margin-right:45px;
+}
+section.parteuno{
+margin-left:45px;
+}
+footer{
+min-height:31vh;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+footer p{
+width:150px;
+}
+footer h3{
+margin-top:0;
+}
+section.footercitos{
+display: flex;
+gap:400px;
+}

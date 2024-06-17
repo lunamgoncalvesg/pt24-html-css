@@ -1,0 +1,53 @@
+header{
+display: flex;
+align-items:center;
+border:1px solid black;
+min-height:15vh;
+}
+.menu{
+display: flex;
+margin-right:20px;
+gap:20px;
+margin-left:auto;
+}
+header img{
+margin-left:20px;
+}
+.menu a{
+text-decoration: none;
+color:black;
+}
+
+main{
+border-right:1px solid black;
+border-left:1px solid black;
+min-height:61vh;
+display: flex;
+align-items: center;
+gap:575px;
+}
+.fotomain img{
+}
+main h1{
+margin-top:0;
+}
+.mainizquierdo{
+margin-left:30px;
+align-content: center;
+width:300px;
+}
+
+footer{
+border:1px solid black;
+min-height:10vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+footer p{
+width:200px;
+}
+
+img{
+border:1px solid black;
+}

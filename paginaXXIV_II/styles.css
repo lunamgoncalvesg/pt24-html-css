@@ -1,0 +1,50 @@
+body{
+border:1px solid black;
+min-height:68vh;
+}
+section{
+display:flex;
+flex-direction:row-reverse;
+}
+main{
+min-height:68vh;
+width:80%;
+display:grid;
+align-content:space-evenly;
+justify-items:center;
+align-text:center;
+align-items:center;
+border-left:1px solid black;
+}
+main p{
+width:700px;
+}
+header{
+border-bottom:1px solid black;
+text-align:end;
+min-height:3vh;
+}
+header h1{
+margin-right:15px;
+}
+nav{
+min-height:68vh;
+width:15%;
+align-text:center;
+align-content:center;
+}
+footer{
+border-top:1px solid black;
+text-align:center;
+min-height:3vh;
+margin:0;
+}
+section#titulos{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+img{
+border:1px solid black;
+}

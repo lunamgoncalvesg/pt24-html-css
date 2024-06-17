@@ -1,0 +1,39 @@
+body{
+border:1px solid black;
+height:99vh;
+margin:2px;
+}
+img{
+border:1px solid black;
+}
+header img{
+border:1px solid;
+margin-top:-32px;
+margin-left:auto;
+margin-right:30px;
+}
+header{
+height:15vh;
+padding-left:30px;
+border-bottom:1px solid black;
+display:flex;
+flex-direction:column;
+}
+p{
+width:500px;
+}
+main{
+padding:50px;
+}
+section.titulitos{
+display:flex;
+gap:30px;
+}
+h1{
+margin-bottom:7px;
+}
+a{
+text-decoration:none;
+font-size:20px;
+color:black;
+}
